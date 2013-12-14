@@ -42,7 +42,6 @@ public class JeuDeBataille {
     }
 
     private void jouerUnTour(){
-
         Carte carteJoueur1 = joueur1.tirerUneCarte(quelCarte);
         Carte carteJoueur2 = joueur2.tirerUneCarte(quelCarte);
         cartesEnJeu++;
