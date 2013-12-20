@@ -30,7 +30,6 @@ public class JeuDeBataille {
 
     public void jouerUnePartie(){
         while(!joueur1.perdu() && !joueur2.perdu()){
-            System.out.println("test");
             jouerUnTour();
         }
         if(joueur1.perdu()){
